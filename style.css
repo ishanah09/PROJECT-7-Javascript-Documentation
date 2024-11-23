@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  max-height: 100vh;
+  /* border: 1px solid #ccc; */
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  color: black;
+  font-weight: 300;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0.75rem;
+}
+header nav li {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  color: black;
+}
+header nav li:hover {
+  background-color: #ccc;
+  transition: 0.25s ease-in-out;
+}
+
+main {
+  padding: 3rem;
+}
+section {
+  margin-bottom: 4rem;
+}
+article {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+p {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+main li {
+  margin-bottom: 0.75rem;
+  margin-left: 3rem;
+}
+
+.code {
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+  background-color: #f7f7f7;
+  font-weight: 350;
+  padding: 0.75rem 1rem;
+}
+.code p {
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 2rem;
+  }
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    margin-bottom: 1.25rem;
+  }
+  p {
+    margin-left: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  main li {
+    margin-bottom: 0.75rem;
+    margin-left: 1.5rem;
+  }
+
+  .code {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+
